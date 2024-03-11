@@ -10,8 +10,6 @@ firstNum = '';
 secondNum = '';
 displayValue = '';
 
-
-
 function add(a, b) {
     return (+a) + (+b);
 }
@@ -84,9 +82,6 @@ resultbtn.addEventListener('click', (e) => {
     let result = operate(firstNum, key, secondNum)
     display.value = result;
 })
-
-
-
 
 
 
